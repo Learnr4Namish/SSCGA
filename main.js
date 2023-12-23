@@ -1,6 +1,6 @@
 // Special Secret Code Generation Algorithm
 // Made by Namish Kumar in July 2023
-
+// Last modified by Namish Kumar in December 2023
 const All_Numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 const All_Capital_Alphabets = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 const All_Small_Alphabets = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -157,4 +157,4 @@ const COMPLEX_STCA = function COMPLEX_STCA() {
          return n1 + a1 + n2 + A2 + s1 + s2 + s3 + s4 + s5 + s6 + n3 + a3;
       }
 
-console.log(COMPLEX_STCA() + COMPLEX_STCA() + COMPLEX_STCA())
+console.log(COMPLEX_STCA())
